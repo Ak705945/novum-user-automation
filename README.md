@@ -376,7 +376,6 @@ requests==2.31.0          # HTTP library
 pytest==7.4.3             # Testing framework
 allure-pytest==2.13.2     # Allure reporting
 pydantic==2.5.0           # Data validation
-faker==20.1.0             # Test data generation
 python-dotenv==1.0.0      # Environment management
 ```
 
