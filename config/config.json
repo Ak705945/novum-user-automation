@@ -1,0 +1,31 @@
+{
+  "environments": {
+    "test": {
+      "base_url": "https://9275a8fd-4765-47be-8ea1-7c30223e883a.mock.pstmn.io",
+      "timeout": 30,
+      "retry_times": 3,
+      "retry_delay": 1
+    },
+    "staging": {
+      "base_url": "http://staging-api.example.com",
+      "timeout": 30,
+      "retry_times": 3,
+      "retry_delay": 1
+    },
+    "production": {
+      "base_url": "http://api.example.com",
+      "timeout": 30,
+      "retry_times": 2,
+      "retry_delay": 2
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "logs/test_execution.log"
+  },
+  "default_headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  }
+}
